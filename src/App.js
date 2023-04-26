@@ -8,6 +8,10 @@ function App() {
 		setCount(1);
 	}, []);
 
+	const getMultiple = (val) => {
+		return val * 2;
+	};
+	console.log(getMultiple(count));
 	return (
 		<div className="App">
 			<h2>huscky demo</h2>
